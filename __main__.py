@@ -7,7 +7,7 @@ from rule import Rule
 WIDTH = 400
 HEIGHT = 400
 
-grid_size = 20
+grid_size = 40
 
 rows = WIDTH // grid_size
 
