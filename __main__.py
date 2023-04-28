@@ -99,7 +99,7 @@ def propagate(x, y, depth):
 
 def solve():
     # Collapse selected tile
-    err = board[selected[0]][selected[1]].collapse()
+    board[selected[0]][selected[1]].collapse()
     # Propagate Changes
     propagate(selected[0], selected[1], depth=8)
 
