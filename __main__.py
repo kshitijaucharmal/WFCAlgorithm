@@ -113,12 +113,6 @@ def main():
                 chosen = True if i == selected[0] and j == selected[1] else False
                 board[i][j].show(ds, i * grid_size, j * grid_size, chosen)
 
-        # Draw grid
-        # for i in range(rows):
-            # pygame.draw.line(ds, (255, 255, 255), (0, i * grid_size), (WIDTH, i * grid_size), 1)
-        # for i in range(rows):
-            # pygame.draw.line(ds, (255, 255, 255), (i * grid_size, 0), (i * grid_size, HEIGHT), 1)
-
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
